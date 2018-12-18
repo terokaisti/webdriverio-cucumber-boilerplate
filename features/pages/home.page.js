@@ -7,7 +7,7 @@ const selectors = {
 var HomePage = Object.create(Page, {
     open: {
         value: function () {
-            return this.browser.url('/');
+            return this.browser.url('terokaisti/webdriverio-cucumber-boilerplate');
         }
     },
     openReadme: {
